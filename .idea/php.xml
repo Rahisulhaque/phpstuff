@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpInterpreters">
+    <interpreters>
+      <interpreter home="/bin/abrt-action-analyze-ccpp-local" id="b532f923-cde2-4575-af8c-19e6277ad3b9" name="PHP" debugger_id="php.debugger.XDebug" debugger_extension="$PROJECT_DIR$/../../lib/php/peclxml/php-pecl-xdebug.xml" />
+    </interpreters>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
+</project>
