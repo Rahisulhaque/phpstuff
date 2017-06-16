@@ -12,13 +12,22 @@
 	/*Here is my Php code */
 	$i = -50;
 	$c = 0;
-
-	while( $i <= 50)
+	echo"<table border='2'>";
+	echo"<td>Fernehite  </td> <td> Celcius </td>";
+	while( $i <= 32)
 	{
     	$c = (($i-32)*5/9);
-    	echo"$c";
-    	$i+= 5;
-	}    
+		echo "<tr bgcolor='lightblue'><td>".$i."</td><td>".$c."</td></tr>";
+		$i+= 5;
+	}
+	while( $i <= 50 && $i> 32)
+	{
+    	$c = (($i-32)*5/9);
+		echo "<tr><td>".$i."</td><td>".$c."</td></tr>";
+		$i+= 5;
+	}
+	echo"</table>";
+	
 
 	
 	?>
